@@ -1,0 +1,41 @@
+{
+  "name": "umber/date",
+  "description": "A series of classes handling ranges of dates.",
+  "type": "library",
+  "license": "MIT",
+
+  "require": {
+    "php": ">=7.1"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Umber\\Date\\": "src/Umber/Date"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Umber\\Date\\Tests\\": "tests/Umber/Date/Tests"
+    }
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "0.1-dev"
+    }
+  },
+
+  "archive": {
+    "exclude": [
+      "!vendor",
+      "*phpunit.xml",
+      ".travis.yml",
+      "tests"
+    ]
+  }
+}
