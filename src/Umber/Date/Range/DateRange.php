@@ -80,6 +80,16 @@ final class DateRange implements DateRangeInterface, IteratorAggregate
     /**
      * {@inheritdoc}
      */
+    public function isRange(): bool
+    {
+        $format = ':YmdHis';
+
+        return $this->start->format($format) === $this->finish->format($format);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function isOpenEnded(): bool
     {
         return $this->start === null

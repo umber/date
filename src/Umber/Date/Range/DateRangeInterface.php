@@ -37,6 +37,11 @@ interface DateRangeInterface
     public function period(bool $inclusive): DatePeriod;
 
     /**
+     * Check if the start and finish are different.
+     */
+    public function isRange(): bool;
+
+    /**
      * Does the date range have an open start or finish date.
      */
     public function isOpenEnded(): bool;
