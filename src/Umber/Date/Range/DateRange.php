@@ -84,7 +84,7 @@ final class DateRange implements DateRangeInterface, IteratorAggregate
     {
         $format = ':YmdHis';
 
-        return $this->start->format($format) === $this->finish->format($format);
+        return $this->start->format($format) !== $this->finish->format($format);
     }
 
     /**
