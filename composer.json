@@ -1,6 +1,6 @@
 {
   "name": "umber/date",
-  "description": "A series of classes handling ranges of dates.",
+  "description": "A series of utilities relating to dates.",
   "type": "library",
   "license": "MIT",
 
