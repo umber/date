@@ -251,9 +251,6 @@ final class DateRangeTest extends TestCase
     /**
      * @test
      * @dataProvider provideCanCheckDateRangeBeforeInclusive
-     *
-     * @param string[] $master
-     * @param string[] $test
      */
     public function canCheckDateRangeBeforeInclusive(string $start, string $finish, bool $expected): void
     {
@@ -290,9 +287,6 @@ final class DateRangeTest extends TestCase
     /**
      * @test
      * @dataProvider provideCanCheckDateRangeBeforeNotInclusive
-     *
-     * @param string[] $master
-     * @param string[] $test
      */
     public function canCheckDateRangeBeforeNotInclusive(string $start, string $finish, bool $expected): void
     {
@@ -327,9 +321,6 @@ final class DateRangeTest extends TestCase
     /**
      * @test
      * @dataProvider provideCanCheckDateRangeAfterInclusive
-     *
-     * @param string[] $master
-     * @param string[] $test
      */
     public function canCheckDateRangeAfterInclusive(string $start, string $finish, bool $expected): void
     {
@@ -364,9 +355,6 @@ final class DateRangeTest extends TestCase
     /**
      * @test
      * @dataProvider provideCanCheckDateRangeAfterNotInclusive
-     *
-     * @param string[] $master
-     * @param string[] $test
      */
     public function canCheckDateRangeAfterNotInclusive(string $start, string $finish, bool $expected): void
     {
@@ -406,9 +394,6 @@ final class DateRangeTest extends TestCase
     /**
      * @test
      * @dataProvider provideCanCheckDateRangeWithinInclusive
-     *
-     * @param string[] $master
-     * @param string[] $test
      */
     public function canCheckDateRangeWithinInclusive(string $start, string $finish, bool $expected): void
     {
@@ -428,9 +413,6 @@ final class DateRangeTest extends TestCase
     /**
      * @test
      * @dataProvider provideCanCheckDateRangeWithinInclusive
-     *
-     * @param string[] $master
-     * @param string[] $test
      */
     public function canCheckDateRangeOutsideInclusive(string $start, string $finish, bool $expected): void
     {
